@@ -9,8 +9,8 @@ app = Flask(__name__)
 # Use environment variables for security.
 # Example: OPENROUTER_API_KEY_AI1 = os.environ.get("OPENROUTER_API_KEY_AI1")
 # For this example, we will use placeholders.
-OPENROUTER_API_KEY_AI1 = "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"
-OPENROUTER_API_KEY_AI2 = "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"
+OPENROUTER_API_KEY_AI1 = os.environ.get("OPENROUTER_API_KEY_AI1")
+OPENROUTER_API_KEY_AI2 = os.environ.get("OPENROUTER_API_KEY_AI2")
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "deepseek/deepseek-chat-v3.1:free"
 
